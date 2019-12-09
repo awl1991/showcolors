@@ -55,7 +55,7 @@ showcolors (){
 		[[ $m = 1 ]] && arr=("${color}" "${arr[@]}")
 
 		# individual block
-		grid[$m]=$grid[$m]"%F{${color}} │  ${z}${color} 􀏄􀏄􀏄􀏄􀏄  ${line}%f"
+		grid[$m]=$grid[$m]"%F{${color}} │  ${z}${color}  ${line}%f"
 
 		# bottom border for each group of blocks
 		if [[ $m = 5 ]]; then
@@ -125,7 +125,7 @@ showcolors (){
 		[[ $cell2 = 1 ]] && z='0'
 		[[ $b = $(( $bblocks - 1 )) ]] && line=" │"
 		[[ $m = 0 ]] && arr=("${color}" "${arr[@]}")
-		rgrid[$m]=$rgrid[$m]"%F{${color}} │  $z${color} 􀏄􀏄􀏄􀏄􀏄􀏄 %F{${color}} ${line}%f"
+		rgrid[$m]=$rgrid[$m]"%F{${color}} │  $z${color}  %F{${color}} ${line}%f"
 		if [[ $m = 2 ]]; then
 			if [[ $b = 0 ]]; then
 				bline="%F{$color}$bbox3"
