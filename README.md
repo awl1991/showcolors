@@ -1,9 +1,6 @@
 <h1 align="center">
   <img width="50px" src="https://github.com/awl1991/showcolors/blob/master/assets/logo.png"> showcolors
 </h1>
-<h4 align="center">
-Show Terminal-256 colors in style!
-</h4>
 <p align="center">
  <img width="500px" src="https://github.com/awl1991/showcolors/blob/master/assets/showcolors.png">
 </p>
