@@ -18,7 +18,7 @@ showcolors (){
 
 	# title display
 	print -P 					 "\t\t %F{23}    ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓"
-	print -P "\t\t %F{23}┏━━━┫   %F{061}􀎒   %F{025}Terminal 256 Color Palette%F{23}   ┣━━━┓"
+	print -P "\t\t %F{23}┏━━━┫   %F{061}   %F{025}Terminal 256 Color Palette%F{23}   ┣━━━┓"
 	print -P 					 "\t\t %F{23}┃   ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛   ┃"
 
 	# loop through colors
